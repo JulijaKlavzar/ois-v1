@@ -1,6 +1,14 @@
+import java.util.*;
+
 public class Gravitacija {
-    public static void polnIzpis(double nadmorskaVisina)
-    {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);ž
+        double visina = sc.nextDouble();
+        
+        polnIzpis(visina);
+    }
+    
+    public static void polnIzpis(double nadmorskaVisina) {
         System.out.println("Nadmorska višina: " + nadmorskaVisina + "Pospešek: " + pospesek(nadmorskaVisina));
     }
 
